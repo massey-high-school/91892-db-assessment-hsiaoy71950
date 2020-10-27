@@ -3,7 +3,7 @@ body {
     padding: 50px;
     color: #000;
     font-family: 'Lato', sans-serif;
-    background-color: #ebffeb; /* Lightest green */
+    background-color: #edfff5; /* Lightest green */
 }
 
 hr {
@@ -35,7 +35,7 @@ hr {
         "side main"
         "foot foot";
         
-    background-color: #ebffeb;  /* Lightest green */
+    background-color: #edfff5;  /* Lightest green */
     grid-gap: 4px;
     }
 
@@ -97,7 +97,7 @@ img {
     grid-area: foot;
     text-align: right;
     color: #fff;
-    background-color: #5bbd5b; /* really dark green */
+    background-color: #8cb88c; /* really dark green */
 }
 
 
@@ -117,9 +117,9 @@ h1, h2, h3, h4 {
 
 /* links in page */
 
-a:link{color: #d6d3d7;}
-a:visited{color: #ccc;}
-a:hover{color: #dfcfbc;}
+a:link{color: #36a5ff;}
+a:visited{color: #70bfff}
+a:hover{color: #008cff;}
 
 /* side links */
 a.side {
@@ -171,9 +171,9 @@ a.side:hover {color:#8a1737; }
     position: relative;
     width: 45px;
     left: -1px;
-    background-color: #636263;
-    color: #d6d3d7;
-    border: 1px solid #636263;
+    background-color: #5bbd5b;
+    color: #fff;
+    border: 1px solid #5bbd5b;
     border-radius: 0 5px 5px 0;
 }
 
