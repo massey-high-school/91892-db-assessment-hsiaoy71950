@@ -3,8 +3,12 @@ body {
     padding: 50px;
     color: #000;
     font-family: 'Lato', sans-serif;
+    background-color: #ebffeb; /* Lightest green */
 }
 
+hr {
+    border-style: solid;
+}
 
 /* hide message if browser supports grid */
 @supports(display:grid) {
@@ -31,7 +35,7 @@ body {
         "side main"
         "foot foot";
         
-    background-color: #fff;
+    background-color: #ebffeb;  /* Lightest green */
     grid-gap: 4px;
     }
 
@@ -45,23 +49,27 @@ body {
 
 /* make logo and banner the same colour */
 .logo, .main {
-    background-color: #dfcfbc;  /* beige */
+    background-color: #cef0ce;  /* lighter green */
 }
 
 .banner, .side {
-    background-color: #d6d3d7; /* blue grey */
+    background-color: #b8d6b8;/* light green */
 }
 
 
 .logo {
     grid-area: logo;
     height: 150px;
-    border-radius: 0 5px 5px 0;
+    border-radius: 5px;
     padding-left: 0;
     padding-top: 0;
     padding-bottom: 0;
     
     
+}
+
+img {
+    border-radius: 5px;
 }
 
 .banner {
@@ -89,7 +97,7 @@ body {
     grid-area: foot;
     text-align: right;
     color: #fff;
-    background-color: #636263;
+    background-color: #5bbd5b; /* really dark green */
 }
 
 
@@ -101,7 +109,7 @@ h1, h2, h3, h4 {
 
 .sub_heading {
     font-family: 'Ubuntu', sans-serif;
-    color: #593849;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -126,10 +134,11 @@ a.side:hover {color:#8a1737; }
 /**** Results ****/
 
 .results {
-    background-color: #f4ebe1;
+    background-color: #e6ffe7;
     border-radius: 10px;
     border: 1px solid #000;
     padding: 5px;
+    margin-bottom: 5px;
 }
 
 
@@ -141,6 +150,32 @@ a.side:hover {color:#8a1737; }
     padding: 20px;
     }
 
+/* Side Form formatting */
+
+.searchform {
+    width: 250px;
+    margin: 5px;
+    flex-wrap: nowrap;
+}
+
+.search{
+    padding: 8px 15px;
+    background: #fff;
+    border: 0px solid #dbdbdb;
+    width: 175px;
+}
+
+.submit{
+    font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+    position: relative;
+    width: 45px;
+    left: -1px;
+    background-color: #636263;
+    color: #d6d3d7;
+    border: 1px solid #636263;
+    border-radius: 0 5px 5px 0;
+}
 
 
 
