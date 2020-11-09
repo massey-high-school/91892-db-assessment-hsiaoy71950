@@ -46,7 +46,7 @@
                     Defense:&nbsp;<?php echo $find_rs["Defensestat"];?><br/>
                     Special Attack:&nbsp;<?php echo $find_rs["SpAttackstat"];?><br/>
                     Special Defense:&nbsp;<?php echo $find_rs["SpDefensestat"];?><br/>
-                    Spped:&nbsp;<?php echo $find_rs["Speedstat"];?><br/>
+                    Speed:&nbsp;<?php echo $find_rs["Speedstat"];?><br/>
                     Generation:&nbsp;<?php echo $find_rs["Generation"];?><br/>
                     Legendary?:&nbsp;<?php if($find_rs["Legendary"]){?>
                         Yes

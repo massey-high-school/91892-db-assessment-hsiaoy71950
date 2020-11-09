@@ -171,12 +171,35 @@ a.side:hover {color:#8a1737; }
     position: relative;
     width: 45px;
     left: -1px;
-    background-color: #5bbd5b;
+    background-color: #8cb88c;
     color: #fff;
-    border: 1px solid #5bbd5b;
+    border: 1px solid #8cb88c;
     border-radius: 0 5px 5px 0;
 }
-
+/* advanced search */
+.advanced-frame{
+    border-radius: 20px;
+    background-color: #f4ff7e;
+    border: solid 1px  #4f570b;
+    padding: 5px;
+}
+.advanced-button {
+    margin: auto;
+    width: 95%;
+    border-radius: 5px;
+    background-color: c;
+    font-size: 105%;
+}
+.adv {
+    width: 95%;
+    margin-bottom: 5px;
+}
+.adv-txt {
+    vertical-align: middle;
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
 
 
